@@ -1,0 +1,40 @@
+
+.react-datepicker__input-container input {
+    background-color: #f0f0f0;
+    background: #E6EAE5;
+    color: gray;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 2px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+  }
+  
+  .react-datepicker__input-container input:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .react-datepicker__month-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px; 
+    margin-bottom: 40px;
+  }
+
+  .react-datepicker {
+   margin-bottom: 40px;
+  }
+
+  
+.datepicker-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+  

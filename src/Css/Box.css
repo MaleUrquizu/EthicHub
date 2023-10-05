@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+/*Bond holders*/
+
+.bondholders {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.bh {
+    text-align: center;
+}
+
+.box1y2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    background-color: #E6EAE5;
+    height: 130px;
+    display: flex;
+    width: 30%;
+    max-width: 490px;
+    min-width: 490px;
+    margin-right: 25px;
+    margin-left: 25px;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.titlebox {
+    margin-left: 25px;
+}
+
+.boxdata {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+
+}
+
+.currentbhbox {
+    display: flex;
+    font-size: 70px;
+    margin: 0;
+    place-items: flex-end;
+    margin-right: 25px;
+}
+
+.previousbhbox {
+    display: flex;
+    margin: 0;
+    place-items: flex-end;
+    margin-bottom: 15px;
+
+}
+
+
+/*Bond Liquidity*/
+
+.bliquidity {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.bl {
+    text-align: center;
+}
+
+.boxliquidity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boxmature {
+    background-color: #E6EAE5;
+    height: 130px;
+    display: flex;
+    width: 30%;
+    max-width: 310px;
+    min-width: 310px;
+    margin-right: 25px;
+    margin-left: 25px;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.titletomature {
+    margin: 0;
+    margin-top: 6px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.month {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 45px;
+    color: #062F4F;
+}
+
+.h3s1 {
+    margin: 0;
+}
+
+.h3s2 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .bl {
+        display: block;
+        font-size: 14px;
+    }
+
+    .bh {
+        display: block;
+        font-size: 14px;
+    }
+
+    .box1y2 {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .titletomature {
+        font-size: 10px;
+    }
+
+    .h3s2 {
+        margin: 0;
+        margin-top: 6px;
+        font-size: 14px;
+    }
+
+    .h3s1 {
+        font-size: 14px;
+    }
+
+    .boxmature {
+        height: 100px;
+        display: flex;
+        width: 80px;
+        margin-bottom: 20px;
+    }
+
+    .boxliquidity {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .box {
+        width: 100px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+
+    .currentbhbox {
+        font-size: 40px;
+    }
+
+    .previousbhbox {
+        font-size: 20px;
+    }
+
+    .chart {
+        width: 460px;
+    }
+
+    .detail-ethix {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 80px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    .chart-principal {
+        width: 460px;
+        height: 300px;
+    }
+
+    .img1 {
+        height: 40px;
+        margin-right: 90px;
+    }
+
+    .img2 {
+        height: 40px;
+    }
+
+    .img3 {
+        height: 40px;
+        margin-left: 80px;
+    }
+
+    .img {
+        position: absolute;
+        top: 200px;
+        left: 50px;
+    }
+
+    .bond-holders {
+        margin-top: 40px;
+    }
+
+
+}

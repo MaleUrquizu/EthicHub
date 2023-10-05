@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+css
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.logo-container {
+  width: 100px;
+  text-align: left;
+}
+
+.img-logo {
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 250px;
+}
+
+.navbar {
+  display: flex;
+  place-content: end center;
+  margin: 0;
+  flex-wrap: wrap;
+  border-bottom: 3px solid black;
+  margin-bottom: 50px;
+  position: relative; 
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  align-self: end;
+}
+
+li {
+  font-weight: 600;
+  padding: 10px 90px;
+  background-color: #E6EAE5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  font-family: "Nunito sans";
+  cursor: pointer;
+  position: relative;
+  margin-bottom: -3px; 
+  z-index: 1; 
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+li.active {
+    background-color: white;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
+@media (max-width: 768px) {
+  
+  .img-logo {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100px;
+  }
+
+  .navbar {
+    border-bottom: none;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap; 
+    margin-right: 40px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  li {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    background-color: transparent;
+  }
+
+  li.active {
+    background-color: transparent;
+    border-bottom: none;
+  }
+
+  a {
+    font-size: 18px;
+  }
+}
+
+
+
+
